@@ -8,12 +8,12 @@ this git has personal information about me.
 
 ### Language Known
 
--Nepali
--English
--JAVA
--HTML
--CSS, SCSS
--Javascript
--PHP
--MySql
--C++
+- Nepali
+- English
+- JAVA
+- HTML
+- CSS, SCSS
+- Javascript
+- PHP
+- MySql
+- C++
