@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+}
+
+.view-height{
+  height: 100vh;
+}
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html{
+  min-height: 100%;
+  /* overflow: hidden;*/
+}
+header{
+  /* height: calc(100vh - 8em); */
+  /* padding: 4em; */
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;
+  background-color: rgb(25,25,25);
+}
+a:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+.heading{
+ text-align: right;
+ padding-top: 10%;
+}
+.navbar-wrapper{
+  margin-top: 75px;
+  font-size: 24px;
+}
+.navbar{
+  display: inline;
+}
+.btn-custom{
+  color: #007bff !important;
+}
+.btn-custom:hover{
+  color: #fff !important;
+}
+@media (min-width: 992px){
+.banner-wrapper {
+    max-width: 780px;
+
+}
+}
+
+
+/*
+.line-1{
+    position: relative;
+    top: 50%;
+    width: auto;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    //align-items: right;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+//Animation
+.anim-typewriter{
+  animation: typewriter 5s steps(28) 1s 1 normal both,
+             blinkTextCursor 500ms steps(28) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}*/
